@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pdf-talk"
+version = "0.1.0"
+description = ""
+authors = ["Ricardo Roson <rroson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tiktoken = "^0.7.0"
+nltk = "^3.9.1"
+openai = "^1.41.1"
+poppler-utils = "^0.1.0"
+pymilvus = "^2.4.5"
+pypdf = "^4.3.1"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.14"
+langchain-community = "^0.2.12"
+langchain-core = "^0.2.33"
+langchain-openai = "^0.1.22"
+langchain-text-splitters = "^0.2.2"
+langsmith = "^0.1.99"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
